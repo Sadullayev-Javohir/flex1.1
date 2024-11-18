@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+}
+.container {
+    border: 1px solid white;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    gap: 10px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    gap: 10px;
+}
+.right-header {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 10px;
+}
+.center {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+.center-center {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    gap: 10px;
+}
+.center-top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 10px;
+}
+.center-bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 10px;
+}
+.one, .two, .three, .four, .six, .seven {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+}
+.five, .eight {
+    width: 60%;
+    height: 100%;
+    flex-grow: 1;
+}
+.one {
+    background: url(./nature1.jpeg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(10px);   */
+}
+.box.one, .box.two, .box.three,
+.box.four, .box.five, .box.six,
+.box.seven, .box.eight {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(10px); */
+}
+.two {
+    background: url(./nature2.jpg);
+}   
+.three {
+    background: url(./img3.jpg);
+}
+.four {
+    background: url(./img4.webp);
+}
+.five {
+    background: url(./img5.jpg);
+}
+.six {
+    background: url(./img6.jpg);
+}
+.seven {
+    background: url(./img7.jpg);
+}
+.eight {
+    background: url(./img8.jpg);
+}
+.nine {
+    width: 10%;
+    height: 100%;
+    flex-grow: 1;
+    background: url(./img9.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: blur(10px); */
+}
